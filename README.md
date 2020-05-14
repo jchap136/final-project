@@ -10,6 +10,8 @@
 
 7. download `ml_dump_feat.py` and run `./ml_dump_feat.py total_data_0.1.csv finalized_model_0.7449.sav` to see most important features of model, and get `feat_importance_t0.1.pdf`
 
+8. download `ml_dum_confusion.py` and run `./ml_dump_confusion.py total_data_0.1.csv finalized_model_0.7449.sav` to get confusion matrix, and get `confusion_matrix.pdf`
+
 
 # Final Project Template
 
