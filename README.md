@@ -2,10 +2,13 @@
 1. download `total_data_0.1.csv` and `ml_data_model_select.py` for data and model testing script
 2. to get F1 score run `./ml_data_model_select.py total_data_0.1.csv` to get `model_pred_f1.pdf`
 3. to get balanced accuracy score, uncomment line 69 and comment out line 70 in `ml_data_model_select.py` then run `./ml_data_model_select.py total_data_0.1.csv` to get `model_pred_bas.pdf`
+
 4. download `ml_data_4.py` for BalancedRandomForest hyperparameter optimization and model creation via joblib dump script
 5. run `ml_data_4.py total_data_0.1.csv` to get a model, for example `finalized_model_0.7449.sav`
-6. download `ml_dump.py` and `ml_dump2.py` to see how zeroing out single and pairwise features affects score by running `./ml_dump.py total_data_0.1.csv finalized_model_0.7449.sav` or `./ml_dump2.py total_data_0.1.csv finalized_model_0.7449.sav`
-7. 
+
+6. download `ml_dump.py` and `ml_dump2.py` to see how zeroing out single and pairwise features affects score by running `./ml_dump.py total_data_0.1.csv finalized_model_0.7449.sav` or `./ml_dump2.py total_data_0.1.csv finalized_model_0.7449.sav`, and get `feature_drop_score_t0.1.pdf` and `pairwise_drop_t0.1.pdf`
+
+7. download `ml_dump_feat.py` and run `./ml_dump_feat.py total_data_0.1.csv finalized_model_0.7449.sav` to see most important features of model, and get `feat_importance_t0.1.pdf`
 
 
 # Final Project Template
