@@ -1,3 +1,6 @@
+# Problem statement
+Can we predict RNAs that will be degraded by a UPF1-mediated pathway? I will use a classification machine learning algorithm with different RNA features to test this. A UPF1 substrate is defined as having a TPM value over 1.5-fold greter in a UPF1 knockdown compared to a non-targeting control sample. Not shown in this repository are the scripts to merge all datasets, but the final output of the merge is `total_data_0.1.csv` indicating RNAs from RNA-seq data were removed if they had a TPM less than 0.1 in any condition.
+
 # How to use files
 1. download `total_data_0.1.csv` and `ml_data_model_select.py` for data and model testing script
 2. to get F1 score run `./ml_data_model_select.py total_data_0.1.csv` to get `model_pred_f1.pdf`
