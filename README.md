@@ -1,3 +1,13 @@
+# How to use code
+1. download `total_data_0.1.csv` and `ml_data_model_select.py` for data and model testing script
+2. to get F1 score run `./ml_data_model_select.py total_data_0.1.csv` to get `model_pred_f1.pdf`
+3. to get balanced accuracy score, uncomment line 69 and comment out line 70 in `ml_data_model_select.py` then run `./ml_data_model_select.py total_data_0.1.csv` to get `model_pred_bas.pdf`
+4. download `ml_data_4.py` for BalancedRandomForest hyperparameter optimization and model creation via joblib dump script
+5. run `ml_data_4.py total_data_0.1.csv` to get a model, for example `finalized_model_0.7449.sav`
+6. use `finalized_model_0.7449.sav` to look for most important features of the model
+7. 
+
+
 # Final Project Template
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/py4ds/final-project/master?urlpath=lab/tree/final-project.ipynb)
